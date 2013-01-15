@@ -7,7 +7,7 @@ def allLeft = []
 def allRight = []
 
 // file from http://www.sil.org/linguistics/wordlists/english/
-new File("c:/temp/wordsEn.txt").eachLine { line ->
+new File("c:/Google Drive/projects/words/wordsEn.txt").eachLine { line ->
 
     def letters = line.toCharArray().toList()*.toString()
 

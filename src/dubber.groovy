@@ -2,8 +2,8 @@
 
 String word = "word"
 
-String wordFile = "c:/temp/wordsEn.txt"
-String ngramFile = "c:/downloads/wordplay/googlebooks-eng-all-2gram-20120701-wo"
+String wordFile = "C:/Google Drive/projects/words/wordsEn.txt"
+//String ngramFile = "c:/downloads/wordplay/googlebooks-eng-all-2gram-20120701-wo"
 
 def supersets = []
 
@@ -15,6 +15,7 @@ new File(wordFile).eachLine { line ->
 
 }
 
+/*
 def ngrams = []
 
 new File(ngramFile).eachLine { line ->
@@ -27,6 +28,7 @@ new File(ngramFile).eachLine { line ->
     }
 
 }
+*/
 
 println "Superset words:\n${supersets.join('\n')}\n\n"
-println "ngrams:\n${ngrams.join('\n')}"
+//println "ngrams:\n${ngrams.join('\n')}"

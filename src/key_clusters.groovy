@@ -30,7 +30,7 @@ allLetters.each { sourceLetter ->
 
 wordScores = [:]
 
-new File("c:/temp/wordsEn.txt").eachLine { word ->
+new File("c:/Google Drive/projects/words/wordsEn.txt").eachLine { word ->
 
     def letters = word.toCharArray().toList()*.toString()
 
