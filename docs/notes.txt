@@ -1,0 +1,60 @@
+Properties of Words
+
+Typographic
+
+Pronunciation
+
+Misc
+	 - typed with one hand ("databases", "lollipop")
+	 - clustered on keyboard ("addressees", "lollipop")
+	 - rare words (hapax legomena, etc.)
+	 - palindromes
+	 - lipograms (sort-of:  words with certain letters missing)
+	 - words with certain letters ("q", "z")
+	 - "q" without "u"
+	 - double letters ("puppy") or double doubles ("balloon", "football")
+	 - hijinks (3 dotted letters in a row)
+	 - words with vowels in order ("abstemious", "facetious")
+	 - all straight letters ("ALE") or all curved ("CORD")
+	 - etymology (Greek, Latin, Spanish, etc.)
+	 - words from certain fields (music, biology, computerland)
+	 - parts of speed (noun, verb, adjective)
+	 - place names
+	 - people names
+	 - foreign words, loan words
+	 - portmanteau
+	 - acronyms
+	 - no ascenders or descenders ("ace"), ascenders only ("bad"), descenders only ("jig")
+	 - words with fricative sounds (other pronunciation properties)
+	 - onomatopoeia
+	 
+=======================================================================================================================
+
+Relationships between Words
+
+Pronunciation
+	- homonyms
+
+Misc
+	* something with n-grams
+	- "similar" according to Levenshtein distance (off by one letter, e.g.)
+	- "similar" according to Metaphone, SOUNDEX scores
+	- rhyme (there are multiple types of rhymes, see http://en.wikipedia.org/wiki/Rhyme#Types_of_rhyme)
+	- share a substring
+		- start with same letters/syllable (shared prefix)
+		- end with same letters/syllable (shared suffix)
+		- common substrings in the middle
+		- overlapping strings ("overlap" + "laptop" = "overLAPtop")
+	- anagrams
+	- synonyms (but support multiple degrees of separation)
+	- antonyms
+	- one word appears in definition of the other word
+	- share same first letter or last letter or second letter or whatever
+	- only one syllable different
+	- hypernym, meronym, see http://en.wikipedia.org/wiki/Theronym
+
+=======================================================================================================================
+
+Later:
+
+    - Support phrases, not just words
